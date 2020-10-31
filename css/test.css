@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box
+}
+body{
+    background-color:#16a085;
+}
+p{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: cairo
+}
+input{
+    font-family: cairo;
+    font-size:15px;
+    display: block;
+    padding: 5px;
+    padding-left:10px; 
+    margin: 5px;
+    margin-bottom:15px; 
+    width: 100%;
+    border: 1px solid rgba(26, 188, 156,.3);
+    border-radius: 5px
+    
+}
+input[type="submit"]{
+    background-color:#16a085;
+    color:#fff; 
+}
+.contaner{
+    width: 70%;
+    margin: auto;
+    margin-top: 200px;
+}
+.signup{
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    float: left;
+    width: 40%
+}
+.login{
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    float: right;
+    width: 40%
+}
