@@ -2,7 +2,7 @@
 This repo is just template (frontend only) 
 
 ### Technologies used
-  1- Html-5
+  1- Html-5 <b>
   2- css 3
   3- bootstrap v4
   4- google fonts
