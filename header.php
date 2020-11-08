@@ -1,19 +1,19 @@
 <?php
-    session_start();
-    if(!isset($_SESSION['valid']) && $_SESSION['valid'] != true){
-        header('location:regester.php');
-    } else {
-        require_once 'connection.php';
-    }
-    $id = $_SESSION["id"];
-    $sql = "SELECT * FROM `user` where u_id =$id";
-    $stmt = $conn->query($sql);
+    // session_start();
+    // if(!isset($_SESSION['valid']) && $_SESSION['valid'] != true){
+    //     header('location:regester.php');
+    // } else {
+    //     require_once 'connection.php';
+    // }
+    // $id = $_SESSION["id"];
+    // $sql = "SELECT * FROM `user` where u_id =$id";
+    // $stmt = $conn->query($sql);
     
-    $row = $stmt->fetch(PDO::FETCH_OBJ);
-        $name = $row->u_name;
-        $phone = $row->u_phone;
-        $img = $row->u_image;
-        $cover_img = $row->u_imgcover;
+    // $row = $stmt->fetch(PDO::FETCH_OBJ);
+    //     $name = $row->u_name;
+    //     $phone = $row->u_phone;
+    //     $img = $row->u_image;
+    //     $cover_img = $row->u_imgcover;
 ?>
 <!DOCTYPE html>
 <html lang="en">
